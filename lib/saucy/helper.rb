@@ -20,6 +20,7 @@ module Saucy
       
       src  = File.join(OUTPUT_DIR, filename)
       
+      options[:style] ||= {}
       options[:html] ||= {}
       options[:html][:class] ||= []
       style = options[:html][:style] ||= {}
