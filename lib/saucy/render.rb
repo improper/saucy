@@ -112,7 +112,7 @@ module Saucy
           end
         end
       
-        image = rvg.draw.trim
+        image = rvg.draw
         
         if rotate != 0
           image = rotate!(image, rotate) 
